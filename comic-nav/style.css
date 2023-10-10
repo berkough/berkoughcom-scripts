@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+#blog-title a {
+    font: normal bold 85px 'Special Elite';
+    color: #7BAAF7;
+}
+
+@media (max-width:915px){
+    #blog-title a {
+       font: normal bolder 30px 'Special Elite'; 
+    }
+}
+
+body {
+	color: #eee;
+    background: #111;
+}
+	
+body .post-title a:link, a:visited {
+	color: #ccc;
+}
+
+table, td, tr{
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+	
+#collection .post-title a {
+    font: normal bold 40px Merriweather;
+    color: #ccc;
+}
+
+.book {
+    font: normal 20px Merriweather;
+    color: #eee;
+    text-align: justify;
+}
+
+.e-content{
+    text-align: justify;
+    width: 100%;
+}
+	
+#collection {
+    font: normal 20px Merriweather;
+    color: #eee;
+}
+	
+#collection pre {
+	background: #060606;
+}
+
+body h1 a, body header h2 a {
+	color: #cfcfcf;
+}
+	
+body h1 a:hover, body header h2 a:hover {
+	color: #fff;
+}
+	
+body h1 a:visited, body header h2 a:visited {
+	color: #ccc;
+}
+	
+body #manage ul a, body .dropdown-nav ul a, body #manage ul ul a, body #manage ul a {
+	color: #ccc;
+}
+	 
+body .dropdown-nav ul ul, body .dropdown-nav ul li:hover, body #manage ul ul, body #manage ul ul li:hover, body #manage ul li:hover {
+	background: #222;
+}
+
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+	color: #ddd;
+}
+	
+body a {
+	color: #a2a2ff;
+}
+	
+body a:visited {
+	color: #c98afd;
+}
+	
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+	color: #aaa;
+}
+	
+body #official-writing ul.collections li.collection a.title:link, body #official-writing ul.collections li.collection a.title:visited, body #wrapper ul.collections li.collection a.title:link, body #wrapper ul.collections li.collection a.title:visited {
+	color: #cfcfcf;
+}
+	 
+body #official-writing ul.collections li a.create, body #wrapper ul.collections li a.create {
+    color: #aaa;
+}
+	 
+body#me #official-writing h2 a:link, body#me #official-writing h2 a:visited {
+    color: #a2a2ff;
+}
+	 
+input {
+	background: #202020;
+    color: #bbb;
+}
+	
+#manage ul ul li img {
+    filter: invert(1);
+}
+	
+#post code, #collection code, #subpage code {
+    background: #202020;
+	color: #bbb;
+}
