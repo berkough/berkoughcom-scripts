@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Syncopate');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
 
 #blog-title a {
     font: normal bold 85px Syncopate;
@@ -38,12 +38,14 @@ body .post-title a:link, a:visited {
 }
 	
 #collection .post-title a {
-    font: normal bold 40px Merriweather;
+    font: normal bold 40px;
+    font-family: 'B612 Mono', monospace;
     color: #ccc;
 }
 
 .book {
-    font: normal 20px Merriweather;
+    font: normal 20px;
+    font-family: 'B612 Mono', monospace;
     color: #eee;
     text-align: justify;
 }
@@ -52,14 +54,24 @@ body .post-title a:link, a:visited {
     text-align: justify;
     width: 100%;
 }
+
+iframe {
+    width: 640px;
+    height: 480px;
+}
 	
 #collection {
-    font: normal 20px Merriweather;
+    font: normal 20px;
+    font-family: 'B612 Mono', monospace;
     color: #eee;
 }
 	
 #collection pre {
 	background: #060606;
+}
+
+nav, #post article.norm {
+    font-family: 'B612 Mono', monospace;
 }
 
 body h1 a, body header h2 a {
