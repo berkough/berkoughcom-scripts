@@ -4,8 +4,14 @@ const path = document.location.pathname;
 function albumNum() {
   let covers = document.getElementById("covers");
   covers.style = "position: relative;";
+  
+  if (covers.classList.item(0)!= null){
+    covers.dataset.number = covers.classList.item(0);
+  } else {
+    covers.dataset.number = 20;
+  }
 
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 1; i <= cover.dataset.number; i++) {
     let numbers = `<a href="#item${i}"><p class="albNumber" id="cover-${i}">#${i}.</p></a>`;
     covers.innerHTML += numbers;
 
